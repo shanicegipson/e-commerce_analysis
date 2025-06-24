@@ -25,7 +25,7 @@ top_ten_products = sales_df['StockCode'].str.upper().value_counts()[:10]
 
 desctiption = sales_df['Description'].value_counts()
 print("================")
-print(stock_code)
+# print(stock_code)
 # print(desctiption)
 
 
